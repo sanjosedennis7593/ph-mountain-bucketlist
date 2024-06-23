@@ -20,6 +20,10 @@ const handleSelect = (e: Event) => {
   else {
     mountains.value = [...mountains.value, value]
   }
+  console.log('Mountain Value 22', mountains.value);
+}
+const handleGenerate = () => {
+  console.log('Mountain Value 33', mountains.value);
 }
 </script>
 
@@ -33,14 +37,14 @@ const handleSelect = (e: Event) => {
         <div class="w-9/12 mx-auto grid sm:grid-cols-1 md:grid-cols-3 gap-4 ">
           <List :handleSelect="handleSelect" title="Ilocos Region" :data="ILOCOS_REGION" />
           <List :handleSelect="handleSelect" title="Cagayan Region" :data="CAGAYAN_REGION" />
-          <List :handleSelec="handleSelect" title="Cordillera Region" :data="CORDILLERA_REGION" />
-          <List :handleSelec="handleSelect" title="Central Luzon" :data="CENTRAL_LUZON" />
-          <List :handleSelec="handleSelect" title="Southern Taglog 4a" :data="SOUTHERN_TAGALOG" />
-          <List :handleSelec="handleSelect" title="Bicol Region" :data="BICOL_REGION" />
+          <List :handleSelect="handleSelect" title="Cordillera Region" :data="CORDILLERA_REGION" />
+          <List :handleSelect="handleSelect" title="Central Luzon" :data="CENTRAL_LUZON" />
+          <List :handleSelect="handleSelect" title="Southern Tagalog 4a" :data="SOUTHERN_TAGALOG" />
+          <List :handleSelect="handleSelect" title="Bicol Region" :data="BICOL_REGION" />
         </div>
       </div>
       <div class="my-12 flex flex-row justify-center">
-        <button class="btn btn-primary">Generate</button>
+        <button @click="handleGenerate" class="btn btn-primary">Generate</button>
       </div>
     </div>
   </main>

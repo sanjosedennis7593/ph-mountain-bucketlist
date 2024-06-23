@@ -2,7 +2,8 @@
 type DataProps = {
     name: string
     elevation: number
-    difficulty?: number
+    region: string
+    difficulty?: any
 }
 interface Props {
     data: DataProps[],
@@ -11,14 +12,11 @@ interface Props {
 }
 const { data, title, handleSelect } = defineProps<Props>()
 
-console.log('handleSelect', typeof handleSelect)
-
-
 </script>
 
 <template>
     <div>
-        <div class="text-xl">{{ title }}</div>
+        <div class="text-xl font-bold">{{ title }}</div>
         <div v-for="item of data">
             <div class="m-2">
                 <input @change="handleSelect" :value="item.name" type="checkbox" class="checkbox-success checkbox" />

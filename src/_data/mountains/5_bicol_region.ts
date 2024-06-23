@@ -41,7 +41,7 @@ const BICOL_REGION = [
     },
     {
         "name": "Mt. Lantad",
-        "elevation": null,
+        "elevation": 0,
         "region": "Bicol Region"
     },
     {
@@ -51,7 +51,7 @@ const BICOL_REGION = [
     },
     {
         "name": "Mt. Masaraga",
-        "elevation": null,
+        "elevation": 0,
         "region": "Bicol Region"
     },
     {

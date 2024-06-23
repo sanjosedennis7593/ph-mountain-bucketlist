@@ -108,7 +108,7 @@ const OPTIONS = [
         "name": "Mt. Mabilog",
         "elevation": 441,
         "region": "Southern Tagalog Region 4a",
-        "difficulty": 2
+        // "difficulty": 2
     },
     {
         "name": "Mt. Maculot",
@@ -179,7 +179,7 @@ const OPTIONS = [
         "name": "Mt. Tibig",
         "elevation": 563,
         "region": "Southern Tagalog Region 4a",
-        "difficulty": 2
+        // "difficulty": 2
     },
     {
         "name": "Pico de Loro",

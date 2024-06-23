@@ -1,7 +1,7 @@
 const OPTIONS = [
     {
         "name": "Aguinaldo Trail (San Mariano-Palanan)",
-        "elevation": null,
+        "elevation": 0,
         "region": "Cagayan Valley"
     },
     {
@@ -46,7 +46,7 @@ const OPTIONS = [
     },
     {
         "name": "Mt. Pamaza-pasam",
-        "elevation": null,
+        "elevation": 0,
         "region": "Cagayan Valley"
     },
     {
@@ -61,7 +61,7 @@ const OPTIONS = [
     },
     {
         "name": "Mt. Udok",
-        "elevation": null,
+        "elevation": 0,
         "region": "Cagayan Valley"
     },
     {
